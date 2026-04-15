@@ -1,22 +1,21 @@
-﻿namespace knightmoves;
+﻿﻿namespace knightmoves;
 
-   public class Person(String firstName, String lastName, int age)      
-         {public string firstName;
-         public string lastName;
-         public int age;
+public class Person{
+   public string FirstName;
+   public string LastName;
+   public int Age;
 
-         public Person(String firstName, String lastName, int age){
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.age = age;
-      
+   public Person(string firstName, string lastName, int age)
+   {
+       FirstName = firstName;
+       LastName = lastName;
+       Age = age;
    }
 
-   public Person(String firstName, String lastName){
-      this.firstName = firstName;
-      this.lastName = lastName;
+   public Person(string firstName, string lastName)
+   {
+       FirstName = firstName;
+       LastName = lastName;
+       Age = 0;
    }
-      
-  
-       
 }
